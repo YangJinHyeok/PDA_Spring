@@ -11,6 +11,17 @@ public class RoomRepository {
     Map<Integer, Room> room_table = new HashMap<>();
 
 
+
+    public String getRoom(int id){
+        try{
+            return room_table.get(id).getType();
+        } catch (Exception e){
+            System.out.println("hi");
+            return "exception!!";
+        }
+    }
+
+
     public Room saveRoom(Room room) {
 //        room.setId(id);
         room_table.put(id++, room);

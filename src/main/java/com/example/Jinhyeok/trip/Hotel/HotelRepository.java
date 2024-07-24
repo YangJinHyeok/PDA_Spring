@@ -27,13 +27,18 @@ public class HotelRepository {
 //
     public String searchHotel(int id) {
         Hotel foundHotel = hotel_table.get(id);
-        Optional<Hotel> hotelOptional = Optional.of(foundHotel);
-        if(foundHotel != null){
+        try{
             return foundHotel.getName();
+        } catch (Exception e){
+            System.out.println(e.getMessage());
+            return "exception!!";
         }
-        else{
-            return null;
-        }
+//        if(foundHotel != null){
+//            return foundHotel.getName();
+//        }
+//        else{
+//            return null;
+//        }
 //        return hotel_table.get(id).getName();
     }
 
