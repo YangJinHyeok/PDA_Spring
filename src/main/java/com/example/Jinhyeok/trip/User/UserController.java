@@ -1,9 +1,6 @@
 package com.example.Jinhyeok.trip.User;
 
 
-import com.example.Jinhyeok.trip.Hotel.Hotel;
-import com.example.Jinhyeok.trip.Hotel.HotelService;
-import com.example.Jinhyeok.trip.Room.Room;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

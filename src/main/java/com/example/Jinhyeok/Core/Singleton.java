@@ -1,5 +1,5 @@
-package com.example.Jinhyeok.Core;
-
-public class Singleton {
-
-}
+//package com.example.Jinhyeok.Core;
+//
+//public class Singleton {
+//
+//}
