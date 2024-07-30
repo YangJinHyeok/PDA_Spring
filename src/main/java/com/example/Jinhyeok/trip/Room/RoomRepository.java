@@ -11,11 +11,11 @@
 //import java.util.Map;
 //
 //@Repository
-//public class RoomRepository {
+//public class RoomJPARepository {
 //
 //    EntityManager entityManager;
 //
-//    public RoomRepository(EntityManager entityManager) {
+//    public RoomJPARepository(EntityManager entityManager) {
 //        this.entityManager = entityManager;
 //    }
 //    int id =0;

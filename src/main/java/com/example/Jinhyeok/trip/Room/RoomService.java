@@ -7,7 +7,7 @@
 //public class RoomService {
 //
 //    @Autowired
-//    private RoomRepository roomRepository;
+//    private RoomJPARepository roomRepository;
 //
 //
 ////    public Room getRoom(int id) {

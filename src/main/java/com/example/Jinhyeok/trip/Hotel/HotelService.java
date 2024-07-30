@@ -1,17 +1,17 @@
 //package com.example.Jinhyeok.trip.Hotel;
 //
 //import com.example.Jinhyeok.trip.Room.Room;
-//import com.example.Jinhyeok.trip.Room.RoomRepository;
+//import com.example.Jinhyeok.trip.Room.RoomJPARepository;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.stereotype.Component;
 //
 //@Component
 //public class HotelService {
-//    private final RoomRepository roomRepository;
+//    private final RoomJPARepository roomRepository;
 //    HotelRepository hotelRepository;
 //
 //    @Autowired
-//    HotelService(HotelRepository hotelRepository, RoomRepository roomRepository){
+//    HotelService(HotelRepository hotelRepository, RoomJPARepository roomRepository){
 //        this.hotelRepository = hotelRepository;
 //        this.roomRepository = roomRepository;
 //    }

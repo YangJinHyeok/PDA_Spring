@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.Jinhyeok.Ocp.OcpServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-29T07:27:49" hostname="JINHYEOK" time="0.621">
+  <properties/>
+  <testcase name="testOcpService()" classname="com.example.Jinhyeok.Ocp.OcpServiceTest" time="0.621"/>
+  <system-out><![CDATA[16:27:43.299 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.Jinhyeok.Ocp.OcpServiceTest]: OcpServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:27:43.455 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.Jinhyeok.JinhyeokApplication for test class com.example.Jinhyeok.Ocp.OcpServiceTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.7)
+
+2024-07-29T16:27:43.961+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] c.example.Jinhyeok.Ocp.OcpServiceTest    : Starting OcpServiceTest using Java 17.0.8 with PID 8624 (started by jinhyeok in C:\Users\진혁\GitHub\PDA_Spring)
+2024-07-29T16:27:43.963+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] c.example.Jinhyeok.Ocp.OcpServiceTest    : No active profile set, falling back to 1 default profile: "default"
+2024-07-29T16:27:44.910+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-29T16:27:45.032+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interface.
+2024-07-29T16:27:45.722+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-29T16:27:45.796+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-29T16:27:45.839+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-29T16:27:46.133+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-29T16:27:46.180+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-29T16:27:46.500+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43a59289
+2024-07-29T16:27:46.502+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-29T16:27:46.558+09:00  WARN 8624 --- [Jinhyeok] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-29T16:27:46.559+09:00  WARN 8624 --- [Jinhyeok] [    Test worker] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-07-29T16:27:47.593+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists room
+Hibernate: create table room (id integer not null, price integer not null, type varchar(255), primary key (id)) engine=InnoDB
+2024-07-29T16:27:47.689+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T16:27:48.071+09:00  WARN 8624 --- [Jinhyeok] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-29T16:27:49.153+09:00  INFO 8624 --- [Jinhyeok] [    Test worker] c.example.Jinhyeok.Ocp.OcpServiceTest    : Started OcpServiceTest in 5.493 seconds (process running for 6.957)
+OcpAmethod1
+OcpAmethod2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
