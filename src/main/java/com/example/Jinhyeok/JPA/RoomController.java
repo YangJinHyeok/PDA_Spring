@@ -15,6 +15,11 @@
 //        roomService.saveRoom(roomRegisterReq);
 //    }
 //
+////    @GetMapping("/room")
+////    public void addroom(){
+////        System.out.println("aaaa");
+////    }
+//
 ////    @GetMapping("/findroom/{id}")
 ////    public Room getRoom(@PathVariable int id){
 ////        return roomService.getRoom(id);
